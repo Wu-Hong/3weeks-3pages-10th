@@ -1,4 +1,194 @@
 * {
-  margin: 0; 
-  font-family: Helvetica, sans-serif;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+.header {
+    display: inline-flex;
+    margin: 22px 100px 20px 165px;
+}
+
+.header>.description {
+    font-size: 150%;
+    font-weight: lighter;
+}
+
+.header>.space{
+    width: 550px;
+}
+
+.header>.navigator {
+    margin: 5px;
+}
+
+.navigator ol {
+    list-style-type: none;
+    display: flex;
+}
+
+.item a {
+    font-size: small;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.item a:link {
+    color: black
+}
+
+.item a:visited {
+    color: black
+}
+
+.item a:hover {
+    color: black
+}
+
+.item a:active {
+    color: black
+}
+
+.item .search-icon {
+    margin-top: -7px;
+    margin-left: 35px;
+    width: 60px;
+}
+
+.introduce {
+    position: relative;
+}
+
+.introduce>.background {
+    width: 100%;
+    height: 700px;
+}
+
+.introduce>.description {
+    position: absolute;
+    left: 390px;
+    top: 240px;
+    color: white;
+}
+
+.introduce .download_btn {
+    color: white;
+    background: transparent;
+    border-color: white;
+    width: 200px;
+    height: 55px;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.default_btn {
+    color: white;
+    background-color: slateblue;
+    border-color: slateblue;
+    font-size: 12px;
+    width: 200px;
+    height: 55px;
+}
+
+.introduce .title {
+    font-size: 60px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+.introduce .content {
+    font-weight: bold;
+    display: block;
+    font-size: 15px;
+    text-align: center;
+    margin: 20px;
+}
+
+.introduce .btn-group {
+    text-align: center;
+    margin: 30px;
+}
+
+.seo_pro {
+    display: inline-flex;
+    margin-bottom: 90px;
+}
+
+.seo_pro .pic {
+    width: 46%;
+    margin: 170px 120px 0px 150px;
+}
+
+.seo_pro .paragraph {
+    margin-top: 240px;
+}
+
+.seo_pro .title {
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+}
+
+.seo_pro .content {
+    padding-top:25px;
+    padding-bottom: 20px;
+    width: 350px;
+    font-size: 15px;
+    display: block;
+    text-align: left;
+    line-height: 25px;
+}
+
+.in_action {
+    display: inline-flex;
+    background-color: #F0F0F0;
+    padding-bottom: 90px;
+}
+
+.in_action .pic {
+    width: 46%;
+    margin: 100px 0px 0px 140px;
+}
+
+.in_action .paragraph {
+    margin-top: 180px;
+    margin-left: 150px;
+}
+
+.in_action .title {
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+}
+
+.in_action .content {
+    padding-top: 25px;
+    padding-bottom: 30px;
+    width: 350px;
+    font-size: 15px;
+    display: block;
+    text-align: left;
+    line-height: 25px;
+}
+
+.footer {
+    display: flex;
+    background-color: #181818;
+    padding-bottom: 70px;
+    padding-top: 50px;
+}
+
+.footer>.description {
+    margin: 40px 0px 0px 150px;
+    font-size: 15px;
+    display: block;
+    line-height: 25px;
+    color: white;
+}
+
+.footer .share_icon {
+    margin: 28px 0px 0px 715px;
+    width: 150px;
 }
